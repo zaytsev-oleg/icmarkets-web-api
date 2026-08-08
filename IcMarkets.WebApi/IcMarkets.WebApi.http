@@ -1,0 +1,29 @@
+@IcMarkets.WebApi_HostAddress = http://localhost:5168
+
+GET {{IcMarkets.WebApi_HostAddress}}/api/Blockchain/GetData
+Accept: application/json
+
+###
+
+GET {{IcMarkets.WebApi_HostAddress}}/api/Blockchain/GetData?coin=ETH&chain=main
+Accept: application/json
+
+###
+
+GET {{IcMarkets.WebApi_HostAddress}}/api/Blockchain/GetData?coin=DASH&chain=main
+Accept: application/json
+
+###
+
+GET {{IcMarkets.WebApi_HostAddress}}/api/Blockchain/GetData?coin=BTC&chain=main
+Accept: application/json
+
+###
+
+GET {{IcMarkets.WebApi_HostAddress}}/api/Blockchain/GetData?coin=BTC&chain=test3
+Accept: application/json
+
+###
+
+GET {{IcMarkets.WebApi_HostAddress}}/api/Blockchain/GetData?coin=LTC&chain=main
+Accept: application/json

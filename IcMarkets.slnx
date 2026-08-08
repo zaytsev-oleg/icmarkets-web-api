@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="IcMarkets.Domain/IcMarkets.Domain.csproj" />
+  <Project Path="IcMarkets.Infrastructure/IcMarkets.Infrastructure.csproj" />
+  <Project Path="IcMarkets.UnitTests/IcMarkets.UnitTests.csproj" Id="16d1f71d-6243-41c5-b47a-828625bf86ed" />
+  <Project Path="IcMarkets.UseCases/IcMarkets.UseCases.csproj" />
+  <Project Path="IcMarkets.WebApi/IcMarkets.WebApi.csproj" />
+</Solution>
